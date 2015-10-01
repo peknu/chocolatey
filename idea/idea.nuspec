@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “O” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>idea</id>
+    <title>idea (Install)</title>
+    <version>14.1.5</version>
+    <description>Intellij IDEA dev env</description>
+    <authors>Peter Knuts</authors>
+    <summary>Installs Intellij IDEA 14.1.5 to C:\java\JetBrains\Intellij IDEA 14.1.5 folder</summary>
+    <copyright>Jetbrains</copyright>
+    <licenseUrl>http://www.jetbrains.com</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
